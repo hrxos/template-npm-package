@@ -1,0 +1,19 @@
+{
+  "name": "template-npm-package",
+  "version": "0.0.1",
+  "description": "A template repository for packages to be published to npm",
+  "main": "\"\"",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrxos/template-npm-package.git"
+  },
+  "author": "Tanner B. Hess Webber <tb@hesswebber.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hrxos/template-npm-package/issues"
+  },
+  "homepage": "https://github.com/hrxos/template-npm-package#readme"
+}
