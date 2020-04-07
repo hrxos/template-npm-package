@@ -4,6 +4,7 @@
   "description": "A template repository for packages to be published to npm",
   "main": "\"\"",
   "scripts": {
+    "commit": "git-cz",
     "test": "\"\""
   },
   "repository": {
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/hrxos/template-npm-package/issues"
   },
-  "homepage": "https://github.com/hrxos/template-npm-package#readme"
+  "homepage": "https://github.com/hrxos/template-npm-package#readme",
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
